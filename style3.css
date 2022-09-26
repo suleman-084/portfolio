@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,900;1,700&family=Orbitron:wght@400;600;900&family=Oswald:wght@700&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,300&family=Raleway:wght@200;300;400;500;600;700;800;900&family=Righteous&family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body {
+    background-color:#fff;
+    font-family:'poppins' ;
+}
+.head {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right bottom, #6C63FF, #403aa8);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.head img {
+    height: 90px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.img1 img {
+    height: 20rem;
+
+}
+.head1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.context p{
+    color: #161520;
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 30px;
+    /* margin-right: 10rem; */
+}
+.blog {
+    display: flex;
+    flex-direction: column;
+    margin-left: 31rem;
+    margin-top: 100px;
+}
+.blog1 {
+    border: 3px solid #b9b7ed;
+    width: fit-content;
+    background-color: #CCCCCC;
+    padding: 20px 69px 20px 20px;
+    border-radius: 7px;
+}
+.blog1 h1 {
+    color: black;
+}
+.blog1 p {
+    margin-top: 10px;
+    color: #161520;
+}
+.blog1 a button{
+    background-color: #a19de7;
+    padding:15px 40px ;
+    border: none;
+    border-radius: 7px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.blog1:hover {
+    box-shadow: 5px 5px 15px #9d9a9a;
+}
+.blog1 a button:hover{
+    cursor: pointer;
+    animation: zoom 200ms ease forwards;
+    font-weight: 500;
+    /* text-decoration: underline; */
+
+}
+.blog2 {
+    border: 3px solid #b9b7ed;
+    width: fit-content;
+    background-color: #CCCCCC;
+    padding: 20px 70px 20px 20px;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+.blog2 h1 {
+    color: black;
+}
+.blog2 p {
+    margin-top: 10px;
+    color: #161520;
+}
+.blog2 a button{
+    background-color: #a19de7;
+    padding:15px 40px ;
+    border: none;
+    border-radius: 7px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.blog2:hover {
+    box-shadow: 5px 5px 15px #9d9a9a;
+}
+.blog2 a button:hover{
+    cursor: pointer;
+    animation: zoom 200ms ease forwards;
+    font-weight: 500;
+    /* text-decoration: underline; */
+
+}
+.blog3 {
+    border: 3px solid #b9b7ed;
+    width: fit-content;
+    background-color: #CCCCCC;
+    padding: 20px 107px 20px 20px;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+.blog3 h1 {
+    color: black;
+}
+.blog3 p {
+    margin-top: 10px;
+    color: #161520;
+}
+.blog3 a button{
+    background-color: #a19de7;
+    padding:15px 40px ;
+    border: none;
+    border-radius: 7px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.blog3:hover {
+    box-shadow: 5px 5px 15px #9d9a9a;
+}
+.blog3 a button:hover{
+    cursor: pointer;
+    animation: zoom 200ms ease forwards;
+    font-weight: 500;
+    /* text-decoration: underline; */
+
+}
+.blog4 {
+    border: 3px solid #b9b7ed;
+    width: fit-content;
+    background-color: #CCCCCC;
+    padding: 20px 128px 20px 20px;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+.blog4 h1 {
+    color: black;
+}
+.blog4 p {
+    margin-top: 10px;
+    color: #161520;
+}
+.blog4 a button{
+    background-color: #a19de7;
+    padding:15px 40px ;
+    border: none;
+    border-radius: 7px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.blog4:hover {
+    box-shadow: 5px 5px 15px #9d9a9a;
+}
+.blog4 a button:hover{
+    cursor: pointer;
+    animation: zoom 200ms ease forwards;
+    font-weight: 500;
+    /* text-decoration: underline; */
+
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    background: linear-gradient(to right bottom, #6C63FF, #403aa8);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.footer-logo img{
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.social{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 35rem;
+    margin-top: 25px;
+}
+
+ion-icon{
+  font-size: 35px;
+  color: #000000;
+  margin-right: 32px;
+  margin-bottom: 20px;
+}
+ion-icon:hover{
+    animation: zoom 500ms ease forwards;
+    
+}
+.last {
+    margin-left: 3px;
+    color: #000000;
+    font-size: 20px;
+    
+}
