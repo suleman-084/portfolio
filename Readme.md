@@ -21,4 +21,4 @@ This website is divided into following sections :-
 - Blog section
 - Contact section / Footer
 
-### To Visit My Portfolio [Click Here](https://app.netlify.com/sites/suleman-portfolio1/settings/domain)
+### To Visit My Portfolio [Click Here](https://suleman-portfolio1.netlify.app/)
